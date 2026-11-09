@@ -22,6 +22,6 @@
 ## Где настроить публикацию
 
 Настройки находятся в **приватном** исходном репозитории: `Settings → Secrets and variables → Actions`.
-Нужны переменные `EMS_RELEASE_REPO` и `EMS_UPDATE_FEED_URL`, а также секреты `EMS_RELEASES_TOKEN`, `CSC_LINK` и `CSC_KEY_PASSWORD`.
+Адрес публичного канала уже прописан в workflow. Понадобятся только секреты `EMS_RELEASES_TOKEN`, `CSC_LINK` и `CSC_KEY_PASSWORD`.
 
 Подробности: `Summuryy/EMS-COMMAND/docs/UPDATE_ARCHITECTURE_RU.md`.
